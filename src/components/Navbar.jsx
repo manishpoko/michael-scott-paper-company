@@ -16,7 +16,10 @@ export default function Navbar() {
               <Link to="/products" href="#" className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Products</Link>
 
               <Link to="/about" href="#" className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About Us</Link>
-              
+
+              <Link to="/team" href="#" className="text-gray-600 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Our Team</Link>
+
+
             </div>
           </div>
         </div>

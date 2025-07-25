@@ -1,6 +1,6 @@
 import React from 'react'
 
-function TeamMemberCard() {
+function TeamMemberCard( {member} ) {
     return(
     <div className="bg-white border-2 border-black rounded-lg shadow-lg overflow-hidden w-80">
       <img src={member.image} alt={member.name} className="w-full h-56 object-cover object-center" />

@@ -5,7 +5,7 @@ const teamMembers = [
   {
     name: 'Michael Scott',
     title: 'Founder, CEO, & Regional Manager',
-    image: 'https://i.imgur.com/example1.jpg', // Replace with actual image URLs
+    image: 'https://i.imgur.com/example1.jpg', 
     bio: 'A visionary leader with a passion for people and paper. Michael pioneered our low-cost, high-service model. He enjoys improv comedy and managing his fantasy football team.',
     quote: 'Would I rather be feared or loved? Easy. Both. I want people to be afraid of how much they love me.'
   },

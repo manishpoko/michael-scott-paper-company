@@ -3,18 +3,18 @@ import { Link } from 'react-router-dom'
 
 export default function ProductCard( {product} ) {
   return (
-    <Link to={product.path} className='block'>
+    <Link to={`/products/${product.slug}`} className='block'>
         <div className="
       w-72 bg-yellow-200 border-4 border-black rounded-lg shadow-lg transform hover:scale-105 transition-transform duration-300 font-['Comic_Sans_MS',_cursive]
     ">
-      {/* Product Image Area */}
+
       <div className="h-48 bg-blue-300 flex items-center justify-center border-b-4 border-black">
         <h2 className="text-8xl" style={{ textShadow: '3px 3px 0 #000' }}>
           {product.emoji}
         </h2 >
       </div>
 
-      {/* Product Details Area */}
+
       <div className="p-4 text-center">
         <h3 className="text-2xl font-bold text-gray-800 mb-2">
           {product.title}

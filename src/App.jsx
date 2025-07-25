@@ -6,7 +6,8 @@ import Homepage from "./pages/Homepage"
 import ProductDetailPage from "./pages/ProductDetailPage"
 import AboutPage from "./pages/AboutPage"
 import TeamPage from "./pages/TeamPage"
-
+import PaymentsPage from "./pages/PaymentsPage"
+import OrderSuccessPage from "./pages/OrderSuccessPage"
 
 
 function App() {
@@ -24,6 +25,11 @@ function App() {
 
 
             <Route path="/products/:productId" element= {<ProductDetailPage/>} />
+
+            <Route path="/payment" element= {<PaymentsPage/>} />
+            <Route path="/order-success" element= {<OrderSuccessPage/>} />
+
+
 
           </Routes>
         </main>
